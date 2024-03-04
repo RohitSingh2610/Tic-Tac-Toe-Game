@@ -28,7 +28,7 @@ const checkTie = () => {
     paga1.innerText = "It's a tie! No winner.";
     msgContainer.classList.remove("hide");
     paga1.style.color = "red";
-    paga1.style.fontSize = "10rem";
+    
     disableBoxes();
   }
 };
